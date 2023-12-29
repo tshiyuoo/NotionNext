@@ -13,7 +13,7 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'https://tshiyuoo.vercel.app/',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '技术风险', url: '/tag/technote' },
+  HEO_HERO_CATEGORY_1: { title: '技术分享', url: '/tag/technote' },
   HEO_HERO_CATEGORY_2: { title: '摄影杂志', url: '/tag/photo' },
   HEO_HERO_CATEGORY_3: { title: '随手随录', url: '/tag/thought' },
 
