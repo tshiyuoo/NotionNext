@@ -1,21 +1,16 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2023-12-29', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
-  HEO_NOTICE_BAR: [
-    // { title: '欢迎来到我的博客', url: 'https://blog.tshiyuoo' },
-    // { title: '访问文档中心获取更多帮助', url: 'https://docs.tshiyuoo' }
-  ],
+  HEO_NOTICE_BAR: [],
 
   // 英雄区(首页顶部大卡)
-  // HEO_HERO_TITLE_1: '分享编程',
-  // HEO_HERO_TITLE_2: '与思维认知',
-  // HEO_HERO_TITLE_3: 'tshiyuoo',
-  // HEO_HERO_TITLE_4: '新版上线',
-  // HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  // HEO_HERO_TITLE_LINK: 'https://tshiyuoo',
+  HEO_HERO_TITLE_1: '分享编程',
+  HEO_HERO_TITLE_2: '与思维认知',
+  HEO_HERO_TITLE_3: 'tshiyuoo',
+  HEO_HERO_TITLE_LINK: 'https://tshiyuoo.vercel.app/',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '技术风险', url: '/tag/technote' },
@@ -28,16 +23,8 @@ const CONFIG = {
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
-  HEO_INFOCARD_GREETINGS: [
-    // '你好！我是',
-    // '🔍 分享与热心帮助',
-    // '🤝 专修交互与设计',
-    // '🏃 脚踏实地行动派',
-    // '🏠 智能家居小能手',
-    // '🤖️ 数码科技爱好者',
-    // '🧱 团队小组发动机'
-  ],
-  HEO_INFO_CARD_URL: '', // 个人资料底部按钮链接
+  HEO_INFOCARD_GREETINGS: [],
+  HEO_INFO_CARD_URL: 'https://github.com/tshiyuoo/NotionNext', // 个人资料底部按钮链接
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -103,14 +90,14 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
   HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
   HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: '',
+  HEO_SOCIAL_CARD_URL: 'https://docs.tshiyuoo.com/article/how-to-question',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
-  HEO_MENU_INDEX: false, // 显示首页
+  HEO_MENU_INDEX: true, // 显示首页
   HEO_MENU_CATEGORY: true, // 显示分类
   HEO_MENU_TAG: true, // 显示标签
-  HEO_MENU_ARCHIVE: false, // 显示归档
+  HEO_MENU_ARCHIVE: true, // 显示归档
   HEO_MENU_SEARCH: true, // 显示搜索
 
   HEO_POST_LIST_COVER: true, // 列表显示文章封面
